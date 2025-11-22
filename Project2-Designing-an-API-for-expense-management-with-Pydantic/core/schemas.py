@@ -51,9 +51,3 @@ class ExpenseDelete(BaseModel):
         description="Unique identifier for the expense",
         examples=[1, 2, 3]
     )
-
-class ResponseMessage(BaseModel):
-    detail: str = Field(
-        description="Response message",
-        examples=["Expense added successfully...", "Expense updated successfully...", "Expense deleted successfully..."]
-    )
