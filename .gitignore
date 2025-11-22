@@ -1,4 +1,8 @@
+.gitignore
+
 .token
+
+.workspace.code-workspace
 
 Project1-Designing-an-API-for-expense-management/venv/
 Project1-Designing-an-API-for-expense-management/core/__pycache__/
